@@ -1,15 +1,11 @@
-"""
-Inserta el encabezado aquí y escribe tu código abajo
-"""
-
-# Declaraciones
-CONSTANTE = valor
-
 # Entradas
-entrada = input()
+numero = int(input("Introduzca un número: "))
 
-# Proceso
-
+# Proceso 
+if numero % 10 == 0:
+    resultado = "sí"
+else:
+    resultado = "no"
 
 # Salidas
-print(salida)
+print("El número", numero, resultado, "es múltiplo de 10")
